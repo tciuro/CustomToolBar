@@ -14,7 +14,17 @@
 		7453BFB815675362005304CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7453BFB715675362005304CE /* main.m */; };
 		7453BFBC15675362005304CE /* WBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7453BFBB15675362005304CE /* WBAppDelegate.m */; };
 		7453BFBF15675362005304CE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7453BFBD15675362005304CE /* MainStoryboard.storyboard */; };
-		7453BFC215675362005304CE /* WBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7453BFC115675362005304CE /* WBViewController.m */; };
+		74C4FADE156E017700A9F42A /* 08-chat.png in Resources */ = {isa = PBXBuildFile; fileRef = 74C4FAD5156E017700A9F42A /* 08-chat.png */; };
+		74C4FADF156E017700A9F42A /* 14-tag.png in Resources */ = {isa = PBXBuildFile; fileRef = 74C4FAD6156E017700A9F42A /* 14-tag.png */; };
+		74C4FAE0156E017700A9F42A /* 37-suitcase.png in Resources */ = {isa = PBXBuildFile; fileRef = 74C4FAD7156E017700A9F42A /* 37-suitcase.png */; };
+		74C4FAE1156E017700A9F42A /* 40-inbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 74C4FAD8156E017700A9F42A /* 40-inbox.png */; };
+		74C4FAE2156E017700A9F42A /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 74C4FAD9156E017700A9F42A /* background.png */; };
+		74C4FAE3156E017700A9F42A /* hood-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 74C4FADA156E017700A9F42A /* hood-selected.png */; };
+		74C4FAE4156E017700A9F42A /* hood.png in Resources */ = {isa = PBXBuildFile; fileRef = 74C4FADB156E017700A9F42A /* hood.png */; };
+		74C4FAE5156E017700A9F42A /* post_background-portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 74C4FADC156E017700A9F42A /* post_background-portrait.png */; };
+		74C4FAE6156E017700A9F42A /* toolbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 74C4FADD156E017700A9F42A /* toolbar.png */; };
+		74C4FAF0156E01D900A9F42A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C4FAEF156E01D900A9F42A /* QuartzCore.framework */; };
+		74E3F0D0156E04E9003E17F8 /* WBToolBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C4FAED156E01C800A9F42A /* WBToolBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +32,25 @@
 		7453BFAB15675362005304CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7453BFAD15675362005304CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7453BFAF15675362005304CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7453BFB315675362005304CE /* CustomToolBar-Info.plist */ = {isa = PBXFileReference; path = "CustomToolBar-Info.plist"; sourceTree = "<group>"; };
+		7453BFB315675362005304CE /* CustomToolBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomToolBar-Info.plist"; sourceTree = "<group>"; };
 		7453BFB515675362005304CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7453BFB715675362005304CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7453BFB915675362005304CE /* CustomToolBar-Prefix.pch */ = {isa = PBXFileReference; path = "CustomToolBar-Prefix.pch"; sourceTree = "<group>"; };
-		7453BFBA15675362005304CE /* WBAppDelegate.h */ = {isa = PBXFileReference; path = WBAppDelegate.h; sourceTree = "<group>"; };
+		7453BFB915675362005304CE /* CustomToolBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomToolBar-Prefix.pch"; sourceTree = "<group>"; };
+		7453BFBA15675362005304CE /* WBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBAppDelegate.h; sourceTree = "<group>"; };
 		7453BFBB15675362005304CE /* WBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBAppDelegate.m; sourceTree = "<group>"; };
 		7453BFBE15675362005304CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		7453BFC015675362005304CE /* WBViewController.h */ = {isa = PBXFileReference; path = WBViewController.h; sourceTree = "<group>"; };
-		7453BFC115675362005304CE /* WBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBViewController.m; sourceTree = "<group>"; };
+		74C4FAD5156E017700A9F42A /* 08-chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "08-chat.png"; sourceTree = "<group>"; };
+		74C4FAD6156E017700A9F42A /* 14-tag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14-tag.png"; sourceTree = "<group>"; };
+		74C4FAD7156E017700A9F42A /* 37-suitcase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "37-suitcase.png"; sourceTree = "<group>"; };
+		74C4FAD8156E017700A9F42A /* 40-inbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "40-inbox.png"; sourceTree = "<group>"; };
+		74C4FAD9156E017700A9F42A /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		74C4FADA156E017700A9F42A /* hood-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hood-selected.png"; sourceTree = "<group>"; };
+		74C4FADB156E017700A9F42A /* hood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hood.png; sourceTree = "<group>"; };
+		74C4FADC156E017700A9F42A /* post_background-portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "post_background-portrait.png"; sourceTree = "<group>"; };
+		74C4FADD156E017700A9F42A /* toolbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolbar.png; sourceTree = "<group>"; };
+		74C4FAED156E01C800A9F42A /* WBToolBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBToolBarController.m; sourceTree = "<group>"; };
+		74C4FAEE156E01C800A9F42A /* WBToolBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBToolBarController.h; sourceTree = "<group>"; };
+		74C4FAEF156E01D900A9F42A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74C4FAF0156E01D900A9F42A /* QuartzCore.framework in Frameworks */,
 				7453BFAC15675362005304CE /* UIKit.framework in Frameworks */,
 				7453BFAE15675362005304CE /* Foundation.framework in Frameworks */,
 				7453BFB015675362005304CE /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +88,7 @@
 		7453BFAA15675362005304CE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				74C4FAEF156E01D900A9F42A /* QuartzCore.framework */,
 				7453BFAB15675362005304CE /* UIKit.framework */,
 				7453BFAD15675362005304CE /* Foundation.framework */,
 				7453BFAF15675362005304CE /* CoreGraphics.framework */,
@@ -77,11 +99,12 @@
 		7453BFB115675362005304CE /* CustomToolBar */ = {
 			isa = PBXGroup;
 			children = (
+				7453BFBD15675362005304CE /* MainStoryboard.storyboard */,
 				7453BFBA15675362005304CE /* WBAppDelegate.h */,
 				7453BFBB15675362005304CE /* WBAppDelegate.m */,
-				7453BFBD15675362005304CE /* MainStoryboard.storyboard */,
-				7453BFC015675362005304CE /* WBViewController.h */,
-				7453BFC115675362005304CE /* WBViewController.m */,
+				74C4FAEE156E01C800A9F42A /* WBToolBarController.h */,
+				74C4FAED156E01C800A9F42A /* WBToolBarController.m */,
+				74C4FAD4156E017700A9F42A /* Images */,
 				7453BFB215675362005304CE /* Supporting Files */,
 			);
 			path = CustomToolBar;
@@ -96,6 +119,22 @@
 				7453BFB915675362005304CE /* CustomToolBar-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74C4FAD4156E017700A9F42A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				74C4FAD5156E017700A9F42A /* 08-chat.png */,
+				74C4FAD6156E017700A9F42A /* 14-tag.png */,
+				74C4FAD7156E017700A9F42A /* 37-suitcase.png */,
+				74C4FAD8156E017700A9F42A /* 40-inbox.png */,
+				74C4FAD9156E017700A9F42A /* background.png */,
+				74C4FADA156E017700A9F42A /* hood-selected.png */,
+				74C4FADB156E017700A9F42A /* hood.png */,
+				74C4FADC156E017700A9F42A /* post_background-portrait.png */,
+				74C4FADD156E017700A9F42A /* toolbar.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +191,15 @@
 			files = (
 				7453BFB615675362005304CE /* InfoPlist.strings in Resources */,
 				7453BFBF15675362005304CE /* MainStoryboard.storyboard in Resources */,
+				74C4FADE156E017700A9F42A /* 08-chat.png in Resources */,
+				74C4FADF156E017700A9F42A /* 14-tag.png in Resources */,
+				74C4FAE0156E017700A9F42A /* 37-suitcase.png in Resources */,
+				74C4FAE1156E017700A9F42A /* 40-inbox.png in Resources */,
+				74C4FAE2156E017700A9F42A /* background.png in Resources */,
+				74C4FAE3156E017700A9F42A /* hood-selected.png in Resources */,
+				74C4FAE4156E017700A9F42A /* hood.png in Resources */,
+				74C4FAE5156E017700A9F42A /* post_background-portrait.png in Resources */,
+				74C4FAE6156E017700A9F42A /* toolbar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,7 +212,7 @@
 			files = (
 				7453BFB815675362005304CE /* main.m in Sources */,
 				7453BFBC15675362005304CE /* WBAppDelegate.m in Sources */,
-				7453BFC215675362005304CE /* WBViewController.m in Sources */,
+				74E3F0D0156E04E9003E17F8 /* WBToolBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +324,7 @@
 				7453BFC715675362005304CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

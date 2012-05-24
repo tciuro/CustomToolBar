@@ -1,5 +1,5 @@
 //
-//  WBAppDelegate.h
+//  WBToolBarController.h
 //  CustomToolBar
 //
 //  Created by Tito Ciuro on 4/21/12.
@@ -27,11 +27,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WBAppDelegate : UIResponder <UIApplicationDelegate>
+@interface WBToolBarController : UIViewController
 
-@property (strong, nonatomic) UIWindow *window;
+@property(nonatomic, weak) IBOutlet UIImageView *toolbar;
 
-+ (void)applyShadowToView:(UIView *)view;
-+ (void)applyShadowToView:(UIView *)view offset:(CGSize)offset opacity:(float)opacity;
+-(void)addCenterButtonWithImage:(UIImage *)buttonImage highlightImage:(UIImage *)highlightImage target:(id)target action:(SEL)action;
 
 @end
